@@ -1,0 +1,41 @@
+.about{
+    background-image: url("../assets/bg.webp"); /* fix double dot */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    padding: 50px;
+}
+
+
+.about h2{
+    text-align: center;
+    color: rgb(255, 247, 0);
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+
+.about-container{
+    display: flex;            
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.about-left{
+    width: 60%;
+}
+
+.about-left p{
+    color: white;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+
+.about-right img{
+    width: 450px;
+    height: 370px;
+    border-radius: 50%;
+}
