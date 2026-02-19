@@ -15,9 +15,15 @@
 }
 
 .left h1{
+  font-size: 80px;
+}
+.left h2{
   font-size: 60px;
 }
-
+.left p{
+  padding: 20px;;
+  font-size: 20px;
+}
 .right img{
   width: 350px;
   height: 270px;
@@ -52,3 +58,4 @@
     border-color: transparent;
   }
 }
+

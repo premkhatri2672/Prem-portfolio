@@ -30,9 +30,9 @@ function About(){
           <motion.img
             src={image}
             alt="profile"
-            initial={{ y: -150, opacity: 0 }}
+            initial={{ y: -50, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
-            transition={{ duration: 1 }}
+            transition={{ delay: 2,duration: 1 }}
             viewport={{ once: true }}
           />
         </div>

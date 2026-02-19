@@ -4,25 +4,35 @@
 }
 .nav{
     display:flex;
-    background-color: rgb(2, 43, 249);
      background-image: url("../assets/bg.webp");
      background-repeat: no-repeat ;
     background-position: center;
     background-size: cover;
 }
 .nav img{
-    margin: -20px 0px -30px -50px;
     width: 150px;
     margin: 10px;
     
 }
 .nav ul{
     display: flex;
+    margin-top: 10px;
    
 }
 li{
-    padding: 30px 90px;
+    padding: 30px 70px;
     list-style: none;
+}
+button{
+    padding: 20px 30px;
+      background :transparent;
+      color: white;
+      margin: 20px;
+       font-size:  15px;
+   font-weight: 700;
+}
+button:hover{
+    transform: scale(1.1);
 }
 a{
     text-decoration: none;
